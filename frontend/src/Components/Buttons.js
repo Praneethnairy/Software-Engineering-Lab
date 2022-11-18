@@ -44,7 +44,7 @@ export default function Buttons(props) {
           }
         }
       })
-    },[clicked])
+    },[clicked,props.survey.sid])
     const clickedOpt1 = () =>{
       const required = {
         sid:props.survey.sid,
